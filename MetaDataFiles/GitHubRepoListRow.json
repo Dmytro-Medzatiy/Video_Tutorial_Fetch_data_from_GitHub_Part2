@@ -1,0 +1,52 @@
+{
+  "component": {
+    "handlers": {
+
+    }
+  },
+  "render": {
+    "type": "tbody",
+    "children": [
+      {
+        "type": "tr",
+        "children": [
+          {
+            "type": "td",
+            "children": [
+              {
+                "type": "span",
+                "text": "$item.name",
+                "props": {}
+              }
+            ],
+            "props": {}
+          },
+          {
+            "type": "td",
+            "children": [
+              {
+                "type": "span",
+                "text": "$item.stargazers_count",
+                "props": {}
+              }
+            ],
+            "props": {}
+          },
+          {
+            "type": "td",
+            "children": [
+              {
+                "type": "span",
+                "text": "$item.open_issues_count",
+                "props": {}
+              }
+            ],
+            "props": {}
+          }
+        ],
+        "props": {}
+      }
+    ],
+    "props": {}
+  }
+}

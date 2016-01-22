@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "pageName": "MainPage",
+      "pagePath": "/main",
+      "children": [
+        {
+          "variantName": "mini mesh",
+          "type": "Grid",
+          "props": {
+            "fluid": true,
+            "style": {
+              "marginTop": "50px"
+            }
+          },
+          "children": [
+            {
+              "type": "Row",
+              "children": [
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 3,
+                    "md": 3,
+                    "sm": 3,
+                    "lg": 3,
+                    "className": "hidden-xs"
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "lg": 6
+                  },
+                  "children": [
+                    {
+                      "type": "Panel",
+                      "props": {
+                        "header": "GitHub Repos",
+                        "bsStyle": "primary"
+                      },
+                      "children": [
+                        {
+                          "variantName": "Unsaved variant",
+                          "type": "GitHubRepoForm",
+                          "props": {},
+                          "children": []
+                        },
+                        {
+                          "type": "GitHubRepoList",
+                          "props": {
+                            "striped": true,
+                            "bordered": false,
+                            "condensed": false,
+                            "hover": true
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Col",
+                  "props": {
+                    "xs": 3,
+                    "md": 3,
+                    "sm": 3,
+                    "lg": 3,
+                    "className": "hidden-xs"
+                  },
+                  "children": []
+                }
+              ],
+              "props": {}
+            }
+          ]
+        }
+      ],
+      "props": {},
+      "pageTitle": "UnnamedPage",
+      "pageProps": [],
+      "pageScript": ""
+    }
+  ]
+}

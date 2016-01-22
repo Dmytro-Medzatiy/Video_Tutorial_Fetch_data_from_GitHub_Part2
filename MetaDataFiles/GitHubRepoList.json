@@ -1,0 +1,33 @@
+{
+  "component": {
+    "stateToProps": "{ githubData : { list } }",
+    "handlers": {
+    }
+  },
+  "render": {
+    "type": "Table",
+    "children": [
+      {
+        "type": "GitHubRepoListHeader",
+        "props": {}
+      },
+      {
+        "type": "tbody",
+        "var": "listItems_map$list",
+        "children": [
+          {
+            "type": "GitHubRepoListRow",
+            "props": {}
+          }
+        ],
+        "props": {}
+      }
+    ],
+    "props": {
+      "striped": true,
+      "bordered": false,
+      "condensed": false,
+      "hover": true
+    }
+  }
+}

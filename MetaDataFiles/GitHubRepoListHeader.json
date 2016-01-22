@@ -1,0 +1,52 @@
+{
+  "component": {
+    "handlers": {
+
+    }
+  },
+  "render": {
+    "type": "thead",
+    "children": [
+      {
+        "type": "tr",
+        "children": [
+          {
+            "type": "th",
+            "children": [
+              {
+                "type": "span",
+                "text": "Repo name",
+                "props": {}
+              }
+            ],
+            "props": {}
+          },
+          {
+            "type": "th",
+            "children": [
+              {
+                "type": "span",
+                "text": "Stars",
+                "props": {}
+              }
+            ],
+            "props": {}
+          },
+          {
+            "type": "th",
+            "children": [
+              {
+                "type": "span",
+                "text": "Open Issues",
+                "props": {}
+              }
+            ],
+            "props": {}
+          }
+        ],
+        "props": {}
+      }
+    ],
+    "props": {}
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "component": {
+    "stateToProps": "{ githubData: { fetching: {status, statusText } } }",
+    "handlers": {
+      "handlerFetch": "(e) => { fetchGitHubData_async($inputText.getValue()) }"
+    },
+    "reducerRoot": "githubData"
+  },
+  "render": {
+    "type": "form",
+    "children": [
+      {
+        "type": "Grid",
+        "children": [
+          {
+            "type": "Row",
+            "children": [
+              {
+                "type": "Col",
+                "children": [
+                  {
+                    "type": "Input",
+                    "props": {
+                      "ref": "inputText",
+                      "type": "text",
+                      "hasFeedback": true,
+                      "placeholder": "Owner name"
+                    }
+                  }
+                ],
+                "props": {
+                  "xs": 8,
+                  "md": 8,
+                  "sm": 8,
+                  "lg": 8
+                }
+              },
+              {
+                "type": "Col",
+                "children": [
+                  {
+                    "type": "Button",
+                    "var": "fetchButton_if$status",
+                    "children": [
+                      {
+                        "type": "span",
+                        "text": "Fetch data",
+                        "props": {}
+                      }
+                    ],
+                    "props": {
+                      "bsStyle": "primary",
+                      "onClick": "$handlerFetch"
+                    }
+                  }
+                ],
+                "props": {
+                  "xs": 4,
+                  "md": 4,
+                  "sm": 4,
+                  "lg": 4
+                }
+              }
+            ],
+            "props": {}
+          }
+        ],
+        "props": {
+          "fluid": true
+        }
+      }
+    ],
+    "props": {}
+  }
+}
