@@ -2,7 +2,11 @@
 
 ### Description
 
-Code from the first part of the video tutorial: https://youtu.be/AY65e6Ry_rY?list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1
+Code from the second part of the video tutorial: https://youtu.be/JLz8B0XJPyk?list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1
+"MetaDataFiles" folder has been added to the project. This folder includes four .json files (GitHubRepoListHeader, GitHubRepoListRow, GitHubRepoList and GitHubRepoForm),
+which were used for creating of the React Components in video tutorial.
+
+
 Starter project with a set of more than 40 React Bootstrap & React Widgets components. Also, has a scaffold for the server backend.
  
 ### Documentation
