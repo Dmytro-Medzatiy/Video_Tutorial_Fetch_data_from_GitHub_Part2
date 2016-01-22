@@ -4,7 +4,7 @@
 
 Code from the second part of the video tutorial: https://youtu.be/JLz8B0XJPyk?list=PLAcaUOtEwjoR_U6eE2HQEXwkefeVESix1
 
-"MetaDataFiles" folder has been added to the project. This folder includes four .json files (GitHubRepoListHeader, GitHubRepoListRow, GitHubRepoList and GitHubRepoForm),
+```MetaDataFiles``` folder has been added to the project. This folder includes four .json files (GitHubRepoListHeader, GitHubRepoListRow, GitHubRepoList and GitHubRepoForm),
 which were used for creating of the React Components in video tutorial.
 
 
